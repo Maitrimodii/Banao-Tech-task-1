@@ -1,0 +1,44 @@
+.add-page{
+    min-width:100vw;
+    height: fit-content;
+    margin: 0;
+    padding: 7%;
+    background-color: #F7FDFF;
+}
+.add-card{
+    background-color: #fff;
+    width:100%;
+    padding: 3%; 
+    border: 1px solid gray;
+}
+.add-card p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.custom-card-button{
+    width:10%;
+    border-color: #8064A2;
+    color:#8064A2;
+    background: none;
+    font-size: 14px;
+}
+.custom-card-button:hover{
+    background: #8064A2;
+    border-color: #8064A2;
+}
+
+
+@media (max-width: 1000px){
+    .custom-card-button{
+        width:30%;
+    }
+}
+@media (max-width: 769px){
+    .add-card p{
+        text-align: center;
+    }
+    .custom-card-button{
+        width:100%;
+    }
+}
+

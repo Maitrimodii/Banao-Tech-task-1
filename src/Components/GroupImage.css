@@ -1,0 +1,26 @@
+.imgSection{
+    min-width:100vw;
+    padding:7%;
+    padding-bottom: 0;
+    background-color: #F7FDFF;
+    margin:0;
+}
+.imgSection button {
+    background-color: #8064A2;
+    color: white;
+    width: 20%;
+    border-color: #8064A2;
+  }
+  .imgSection button :hover{
+    color:#8064A2;
+    border-color: #8064A2;
+    border: 1px solid #8064A2;
+    width: 20%;
+  }
+  
+  /* Media Query for Mobile Responsive */
+  @media (max-width: 767px) {
+    .imgSection button {
+      width: 40%;
+    }
+  }

@@ -1,0 +1,80 @@
+.hero{
+    min-height: calc(100vh - 86px);
+    padding-left: 7%;
+    padding-right:7%;
+    padding-top:7%;
+    padding-bottom: 0%;
+    width: 100%;
+    margin:0;
+    position: relative;
+    background-color: #F7F5F9;
+}
+.hero-text{
+    font-size: 14px;
+    word-spacing: 2px;
+    font-weight: 300;
+}
+.custom-button-hero {    
+    border-color: #8064A2;
+    color:black;
+    background: none;
+    font-size: 14px;
+    text-align: center;
+}
+.custom-button-hero:hover {
+    background: #8064A2;
+  }
+.divider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F7F5F9;
+    color:black;
+    font-weight:600;
+    padding: 0 10px;  
+    font-size: 12px;
+    white-space: nowrap; 
+  }
+  .hero img {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.password-meter {
+    display: flex;
+    height: 3px;
+    margin: 7px 0;
+    width:30%;
+    border-radius: 2px;
+}
+.meter-section {
+    flex: 1;
+    background: white;
+    margin: 7px 0;
+    width:30%;
+    border-radius: 2px;
+}
+
+@media (max-width: 1000px) {
+    .hero-text{
+        width: 50%;
+    }
+    .hero img{
+        position: relative;
+    }
+}
+@media (max-width: 769px) {
+    .hero-text{
+        width: 100%;
+    }
+    .hero img{
+        position: relative;
+        margin-top: 34px;
+    }
+}
+@media (max-width: 450px) {
+    .hero img{
+        position: relative;
+    }
+}
